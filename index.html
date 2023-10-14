@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary revision</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    const temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+
+            let phrasalAndMeaning = new Array
+            let phrasal = new Array
+            let meaning = new Array
+            $.get("phrasal_verbs.txt", function(data) {
+                phrasalAndMeaning = data.split("\n")
+                shuffle(phrasalAndMeaning)
+                for (let i=0; i<phrasalAndMeaning.length; i++) {
+                    [phrasal[i], ...meaning[i]] = phrasalAndMeaning[i].split(' - ')
+                    meaning[i] = meaning[i].join(' - ')
+                    $("#content").append("<div class='phrase'></div>")
+                    $("#content div.phrase:last").html((i+1)+". "+meaning[i]+"<span class='phrasal'>"+" - "+phrasal[i]+"</span>")
+                }
+                $("#content div.phrase span.phrasal").hide()
+            });
+
+            $("#content").on("click", (e) => {
+                if ($(e.target).find(".phrasal").is(":visible")) {
+                    $(e.target).find(".phrasal").hide()
+                } else {
+                    $(e.target).find(".phrasal").show()
+                }
+            })
+        })
+    </script>
+    <style>
+        body {
+            background-color: rgb(188, 122, 0);
+            margin: 0;
+        }
+        header {
+            font-size: 4em;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 60%;
+            text-align: center;
+            color: black;
+            background-color: lightblue;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        #content {
+            font-size: 1.2em;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            width: 50%;
+        }
+        #content div.phrase {
+            list-style: none;
+            padding: 15px;
+            margin: 0;
+            border-radius: 20px;
+
+            -webkit-user-select: none; /* Safari */
+            -ms-user-select: none; /* IE 10 and IE 11 */
+            user-select: none; /* Standard syntax */
+        }
+        #content div.phrase:hover {
+            cursor: pointer;
+        }
+        #content div.phrase:nth-child(odd) {
+            background-color: white;
+            color: black;
+        }
+        #content div.phrase:nth-child(even) {
+            background-color: lightblue;
+            color: black;
+        }
+        #content div.phrase:nth-child(odd) span.phrasal {
+            background-color: lightblue;
+            border-radius: 5px;
+        }
+        #content div.phrase:nth-child(even) span.phrasal {
+            background-color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>Vocabulary revision</header>
+    <div id="content">
+    </div>
+</body>
+</html>
