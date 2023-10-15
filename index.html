@@ -22,7 +22,7 @@
             $.get("phrasal_verbs.txt", function(data) {
                 phrasalAndMeaning = data.split("\n")
                 shuffle(phrasalAndMeaning)
-                for (let i=0; i<phrasalAndMeaning.length; i++) {
+                for (let i=0; i<phrasalAndMeaning.length-1; i++) {
                     [phrasal[i], ...meaning[i]] = phrasalAndMeaning[i].split(' - ')
                     meaning[i] = meaning[i].join(' - ')
                     $("#content").append("<div class='phrase'></div>")
