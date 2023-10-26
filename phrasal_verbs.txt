@@ -41,7 +41,7 @@ fall back on - use as a last resort
 fall for - be deceived by (dać się nabrać, oszukać)
 fall for - fall in love with
 fall out with - quarrel with
-fall through - fail to come to competition
+fall through - fail to come to completion
 feel up to - feel capable of doing
 follow up - act upon a suggestion
 follow up - take more action
@@ -51,29 +51,29 @@ get down - make to feel depressed
 get down to - begin to seriously deal with
 get on for - approach a certain age/time/number (zbliżać się do)
 get on - make progress - especially in life
-get over - be surprised (e.g. couldn't get over it)
+get over - be surprised (e.g. couldn't <...> it)
 get over with - come to an end of something, usually unpleasant
 get round to - find time to do - also around (zabrać się za coś)
-get up to - do something - usually bad when about children (przeskrobać coś)
+get up to - do something, usually bad when about children (przeskrobać coś)
 give away - betray
 give off - send off a smell - liquid or gas
 give out - be exhausted (wyczerpać się)
 give over - abandon, devote (poświęcić)
 give over - stop
 give up - surrender
-give up - believed to be dead or lost - e.g. be <3rd form> for lost
+give up - believed to be dead or lost (e.g. be <3rd form> for lost)
 go back on - break a promise
 go in for - make a habit of
 go in for - enter a competition
 go off - become bad - food
-go on - happen - usually negative
+go on - happen, usually negative
 go round - be enough
-go through with - complete a promise or plan - usually unwillingly
+go through with - complete a promise or plan, usually unwillingly
 grow on - become more liked (docierać do kogoś)
 hang onto - keep
 have (got) it in for - be deliberately unkind to someone
 have it out with - express feelings so as to settle a problem
-have someone on - deceive
+have someone on/take in - deceive
 hit it off - go on well with
 hit upon/on - discover by chance - often an idea (wpaść na pomysł)
 hold out - offer - especially with hope
@@ -116,3 +116,53 @@ put oneself out - take trouble - to help someone
 put off - discourage, upset (zniechęcić)
 put up - offer accommodation
 put up with - tolerate, bear (znosić)
+rip off - charge too much
+run down - criticise
+run down - lose power, allow to decline (wyczerpać się)
+run into - meet
+run to - have enough money
+run over/run through - check
+run up - let a bill get longer without paying (e.g. <...> a bill)
+run up against - encounter - usually a problem
+see someone off - go to station, airport, etc to say goodbye to someone
+see through - realise the truth about
+send up - make fun off by imitating
+set about - start working (zacząć)
+set in - establish itself - especially weather
+set out - give in detail in writing
+set out - arrange
+set out - start an action
+set up - establish
+set upon - attack
+sink in - realise slowly
+slip up - make a mistake
+sort out - find a solution
+stand by - keep to - usually an agreement
+stand for - represent - initials
+stand for - tolerate
+stand in for - take the place of
+stand up to - resist, bear the stress (opierać się)
+step down - resign
+step up - increase
+stick up for - defend - especially yourself, your rights
+take it out on - make someone else suffer because of one's own sufferings
+take off - imitate
+take on - acquire a new characteristic
+take on - do something extra
+take out - sign an insurance agreement (e.g. <...> insurance)
+take over - gain control of
+take to someone - develop a liking for
+take up - occupy time (e.g. <...> time)
+talk into - persuade into
+talk out of - dissuade from (odwieść od)
+tell off - scold (karać, rugać)
+tie in with - be in agreement with (e.g. <...> the arrangements)
+track down - trace the whereabouts of
+try out - test - usually a machine
+turn down - reject an offer
+turn out - happen to be in the end (okazać się)
+turn out - come to a meeting or to form a crowd
+turn up - be discovered by chance
+turn up - arrive - often unexpectedly (zjawić się)
+wear off - lose effect - especially a drug
+work out - calculate (e.g. <...> at $500)
